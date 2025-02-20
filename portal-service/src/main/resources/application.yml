@@ -1,0 +1,94 @@
+server:
+  port: 8081
+spring:
+  # 数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud-portal?useSSL=false
+    username: root
+    password: mysql@bjz0517
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: portalservice
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        cluster-name: SZ         # 集群：默认DEFAULT
+        #命名空间namespace：默认public，用来做环境隔离（dev、prod）
+        #                 先在Nacos控制台创建，每个namespace都有唯一id，不同namespace下的实例不能访问
+   #     namespace: 8b62da2e-f304-4739-b873-09e789067c81
+        ephemeral: false  #默认为true临时实例
+  rabbitmq:
+    host: 192.168.186.224
+    port: 5672
+    username: itcast
+    password: 123321
+    virtual-host: /         # 虚拟主机
+  redis:
+    host: 192.168.186.224
+    port: 6379
+    password: 12345678
+#    database: 0              默认0号库
+    lettuce:                  #Spring默认连接的Java客户端是lettuce，需自己指定为Jedis并添加相关依赖
+      pool:                   #需手动配置lettuce的pool，否则连接池不会生效
+        max-active: 8         #最大连接，默认8
+        max-idle: 8           #最大空闲连接，默认8
+        min-idle: 0           #最小空闲连接，默认0
+        max-wait: 1000ms      #最大连接等待时间
+#    sentinel:
+#      master: mymaster             # master名称（在linux的sentinel配置文件里）
+#      nodes:
+#        - 192.168.186.224:27001
+#        - 192.168.186.224:27002
+#        - 192.168.186.224:27003
+
+#    cluster:                       #配置分片集群
+#      nodes:
+#        - 192.168.186.224:7001
+#        - 192.168.186.224:7002
+#        - 192.168.186.224:7003
+#        - 192.168.186.224:8001
+#        - 192.168.186.224:8002
+#        - 192.168.186.224:8003
+
+
+
+#mybatis:
+#  type-aliases-package: com.bjz.user.commom.pojo
+#  configuration:
+#    map-underscore-to-camel-case: true
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 日志
+#  mapper-locations: classpath*:/mapper/**/*.xml    mapper的xml映射文件：默认就是类路径下的mapper文件夹里的所有xml文件
+#  type-aliases-package: com.bjz.portal.common.pojo
+  global-config:
+    db-config:
+      # 全局配置所有表统一的主键生成策略
+      id-type: assign_id
+logging:
+  level:
+    com.bjz: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+userservice:
+  ribbon:  # 针对某个微服务修改负载均衡策略，即a调b是这个随机策略，a调c/d是默认轮询策略
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule  #集群优先，再随机
+ribbon:
+  eager-load:
+    enabled: false   # 开启饥饿加载
+    clients:       # 针对那些微服务，数组形式
+      - userservice
+feign:
+# Feign底层的发送客户端默认采用的是URLConnection，不支持连接池。因此实际项目中性能最好时需要用支持连接池的ApacheHttpClient或者OKHttp代替
+#  okhttp:
+#    enabled: true
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50   #每个路径的最大连接数：某个请求最多分配50个连接
+#  client:
+#    config:
+#      default:
+#        loggerLevel: BASIC    #feign的四种日志级别：NONE默认、BASIC、HEADERS、FULL

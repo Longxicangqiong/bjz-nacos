@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d88902d-c744-4158-8c51-300d19f7c447" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.7.RELEASE/spring-cloud-netflix-ribbon-2.2.7.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.7.RELEASE/spring-cloud-commons-2.2.7.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.7.RELEASE/spring-cloud-commons-2.2.7.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/AsyncLoadBalancerAutoConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.3/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.3\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2TYm0S5O6SMT78tOsTzWH5lvbi4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/common-service/src/main/java/com/bjz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40229884" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Ower\SpringCloud\bjz-nacos\common-service\src\main\java\com\bjz\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Ower\SpringCloud\bjz-nacos\common-service\src\main\java\com\bjz\common\pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bjz.portal.spring.springDataRedis.interceptor" />
+      <recent name="cn.itcast.user.config" />
+      <recent name="cn.itcast.order.pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RedisTest">
+    <configuration name="RedisIdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjz.portal.spring.springDataRedis.config.RedisIdWorker" />
+      <module name="portal-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjz.portal.spring.springDataRedis.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="portal-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.RedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.testRedisGetId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="portal-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.RedisTest" />
+      <option name="METHOD_NAME" value="testRedisGetId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="bjz-eureka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="bjz-eureka" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortalApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="portal-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjz.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjz.portal.PortalApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8084" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="portal-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjz.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjz.portal.PortalApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjz.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjz.user.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RedisIdWorker" />
+      <item itemvalue="JUnit.RedisTest.testRedisGetId" />
+      <item itemvalue="JUnit.RedisTest" />
+      <item itemvalue="Spring Boot.UserApplication " />
+      <item itemvalue="Spring Boot.PortalApplication" />
+      <item itemvalue="Spring Boot.PortalApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisTest" />
+        <item itemvalue="Spring Boot.PortalApplication" />
+        <item itemvalue="Spring Boot.PortalApplication (1)" />
+        <item itemvalue="JUnit.RedisTest.testRedisGetId" />
+        <item itemvalue="Application.RedisIdWorker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d88902d-c744-4158-8c51-300d19f7c447" name="Changes" comment="" />
+      <created>1691228166692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691228166692</updated>
+      <workItem from="1691228169189" duration="178000" />
+      <workItem from="1691409830640" duration="1075000" />
+      <workItem from="1691411391367" duration="2663000" />
+      <workItem from="1691414470207" duration="1059000" />
+      <workItem from="1691457954438" duration="2413000" />
+      <workItem from="1691549333038" duration="96000" />
+      <workItem from="1691583874140" duration="80000" />
+      <workItem from="1691906275240" duration="150000" />
+      <workItem from="1719127335067" duration="178000" />
+      <workItem from="1719127573360" duration="2121000" />
+      <workItem from="1719730895080" duration="92000" />
+      <workItem from="1720946463958" duration="358000" />
+      <workItem from="1720946875876" duration="3256000" />
+      <workItem from="1721050750948" duration="969000" />
+      <workItem from="1721052931706" duration="1285000" />
+      <workItem from="1721219357631" duration="6472000" />
+      <workItem from="1721311604107" duration="1963000" />
+      <workItem from="1721393125279" duration="6058000" />
+      <workItem from="1721483678142" duration="804000" />
+      <workItem from="1721484583596" duration="8144000" />
+      <workItem from="1721652166389" duration="4992000" />
+      <workItem from="1721828467560" duration="2826000" />
+      <workItem from="1721912549746" duration="5502000" />
+      <workItem from="1721999130649" duration="17549000" />
+      <workItem from="1722753841939" duration="594000" />
+      <workItem from="1722862385615" duration="606000" />
+      <workItem from="1723036392147" duration="594000" />
+      <workItem from="1723205037612" duration="29667000" />
+      <workItem from="1724421492410" duration="10349000" />
+      <workItem from="1725283760538" duration="41000" />
+      <workItem from="1725369193942" duration="9624000" />
+      <workItem from="1725547441365" duration="595000" />
+      <workItem from="1728118988923" duration="6606000" />
+      <workItem from="1728368130698" duration="24897000" />
+      <workItem from="1728888643310" duration="71000" />
+      <workItem from="1729161336161" duration="4843000" />
+      <workItem from="1729412254983" duration="10227000" />
+      <workItem from="1729474772596" duration="1140000" />
+      <workItem from="1729510564008" duration="4505000" />
+      <workItem from="1729596802815" duration="7925000" />
+      <workItem from="1729768696462" duration="5404000" />
+      <workItem from="1729863471938" duration="1994000" />
+      <workItem from="1731743894025" duration="7598000" />
+      <workItem from="1732537798265" duration="595000" />
+      <workItem from="1732796549184" duration="594000" />
+      <workItem from="1733228399265" duration="576000" />
+      <workItem from="1733401013742" duration="4874000" />
+      <workItem from="1733745803759" duration="6523000" />
+      <workItem from="1733919275064" duration="7382000" />
+      <workItem from="1734005690221" duration="5777000" />
+      <workItem from="1734354990202" duration="5543000" />
+      <workItem from="1735128941145" duration="13621000" />
+      <workItem from="1735226460955" duration="30000" />
+      <workItem from="1735301609120" duration="10621000" />
+      <workItem from="1735720211268" duration="15217000" />
+      <workItem from="1735909523717" duration="20188000" />
+      <workItem from="1736165157744" duration="6430000" />
+      <workItem from="1736251535553" duration="8999000" />
+      <workItem from="1736338942214" duration="16030000" />
+      <workItem from="1736584796662" duration="7296000" />
+      <workItem from="1736666499784" duration="9471000" />
+      <workItem from="1736772917600" duration="3549000" />
+      <workItem from="1737182194431" duration="7816000" />
+      <workItem from="1737377837372" duration="4664000" />
+      <workItem from="1737440792426" duration="13462000" />
+      <workItem from="1737464476555" duration="9174000" />
+      <workItem from="1739695015462" duration="9305000" />
+      <workItem from="1739851597827" duration="597000" />
+      <workItem from="1740067915234" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/portal-service/src/main/java/com/bjz/portal/common/service/impl/PortalServiceImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.netflix.loadbalancer.ZoneAwareLoadBalancer" memberName="allServerList" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

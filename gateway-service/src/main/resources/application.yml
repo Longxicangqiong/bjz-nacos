@@ -1,0 +1,27 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: getewayservice
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      routes:  # 配置网关的路由
+        - id: portal-service   # 路由id
+#          uri: http://localhost:8081   uri：路由的目标地址
+          uri: lb://portalservice     # lb负载均衡+微服务名
+          predicates:     # 断言：一个布尔表达式:返回true或false
+            - Path=/portal/**   # 以路径为依据的路由规则，按照路径匹配，以 /portal/ 开头的的请求返回true
+#          filters:    #网关过滤器
+#            - AddRequestHeader=headerWord,HelloWord  # 给当前请求加一个请求头
+        - id: user-service
+          uri: lb://userservice
+          predicates:
+            - Path=/user/**
+      default-filters:   #默认过滤器：全局配置
+        - AddRequestHeader=headerWord,HelloWord      #order=1， 由spring指定，默认是按声明顺序从1递增
+#        - AddRequestHeader=headerWord,HelloWord     #order=2
+#        - AddRequestHeader=headerWord,HelloWord     #order=3
+#      globalcors:   # 网关解决跨域问题的方案任然是CORS

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bjz.portal.common.mapper.PortalMapper">
+
+
+    <select id="findById" resultType="com.bjz.portal.common.pojo.SystemMessage">
+        select * from system_message where id = #{id}
+    </select>
+
+
+    <select id="pageMessage" resultType="com.bjz.portal.common.pojo.SystemMessage">
+        select * from system_message
+        <where>
+            <if test="null != keyword and '' != keyword">
+                <!--   `name` like concat('%', #{keyword}, '%')   -->
+                <bind name="bind" value="'%'+keyword+'%'"/>
+                 `name` like #{bind}
+            </if>
+        </where>
+    </select>
+
+</mapper>
